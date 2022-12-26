@@ -292,11 +292,13 @@ textarea {
     margin-bottom: 0; }
   .projects__row-img-cont {
     width: 321px;
-    height: 600px; }
+    height: 600px;
+    justify-content: center; }
   .projects__row-img {
     width: 321px;
     height: 600px;
-    display: block; }
+    display: block; 
+    justify-content: center; }
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
