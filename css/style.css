@@ -291,7 +291,8 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
-    overflow: hidden; }
+    width: 321px;
+    height: 600px; }
   .projects__row-img {
     width: 321px;
     height: 600px;
