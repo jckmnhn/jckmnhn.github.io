@@ -186,7 +186,7 @@ textarea {
 .home-hero {
   color: #fff;
   background-image: url(../../assets/jpeg/mountains.jpg);
-  background-size:contain;
+  background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
