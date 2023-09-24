@@ -1,197 +1,272 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Jack Minehan</title>
-    <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Jack Minehan | Developer</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="jckmnhn, Jack Minehan, swift, swiftui, firebase, java, linux" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Jack Minehan | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/me.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://jckmnhn.dev/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Jack Minehan | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Jack Minehan's Portfolio" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/JCKMNHN.png"
     />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://jckmnhn.dev" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="Jack Minehan | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Jack Minehan's Portfolio"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://jckmnhn.dev/assets/JCKMNHN.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
   </head>
   <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Jack Minehan</span>
+          <br />
+          I'm a computer science student and iOS app developer
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">About Me</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/MeCircle.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
           </div>
-          <span class="header__logo-sub">JCKMNHN</span>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I'm a sophomore computer science student at the University of Tennessee, Knoxville.
+            </p>
+            <p class="about-wrapper__info-text">
+              My recent projects include developing iOS apps in Swift and SwiftUI, using backend services with Google's Firebase.
+            </p>
+          </div>
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Appsmith</h3>
+              <p class="project-wrapper__text-info">
+                Say goodbye to mundane and monotonous app icons! Appsmith provides access to an extensive library 
+                of beautifully crafted icon themes, designs, and styles. 
+                From vibrant gradients to elegant minimalist icons, 
+                Appsmith has something for everyone. Express your personality, create your phone's unique style, 
+                or simply choose icons that resonate with your mood - the possibilities are limitless!
+              </p>
+              <!--
+              <div class="project-wrapper__text-btns">
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Learn More</a
+                >
+              </div>
+            -->
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/AppsmithBanner.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
               </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+            </div>
+          </article>
+          <!-- /END Project -->
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Jack Minehan</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Hi, I'm a software developer and graphic designer. My recent projects include publishing the mobile apps Svalinn and Quill on the App Store.
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hi! I'm Jack Minehan, and I'm a software developer and graphic designer. I've published a few mobile apps on the App Store, including Svalinn and Quill.
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Quill</h3>
+              <p class="project-wrapper__text-info">
+                Quill is an app that allows you to share and respond to kind letters with others globally. 
+                Whether you want to express a concern, ask a question, or share positivity with others, 
+                Quill provides you with the ability to write down these ideas in anonymous letters that 
+                will be delivered to strangers around the world.
               </p>
+              <!--
+              <div class="project-wrapper__text-btns">
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Learn More</a
+                >
+              </div>
+            -->
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            >
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">Swift</div>
-              <div class="skills__skill">SwiftUI</div>
-              <div class="skills__skill">Java</div>
-              <div class="skills__skill">C++</div>
-              <div class="skills__skill">Firebase</div>
-              <div class="skills__skill">iOS</div>
-              <div class="skills__skill">Photoshop</div>
-              <div class="skills__skill">Illustrator</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-        </h2>
 
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/quillscreenshot.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/QuillBanner.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Quill</h3>
-              <p class="projects__row-content-desc">
-                Whether you want to express a concern or share positivity with others, Quill allows you to anonymously send messages to strangers.
-              </p>
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/svalinnscreenshot.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Svalinn</h3>
-              <p class="projects__row-content-desc">
-                Svalinn is an app created to help individuals understand their impact on climate change.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            If you have any questions or comments please reach out! You can reach me at contactsvalinn@gmail.com
-          </span>
-        </h2>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-          <div class="main-footer__row main-footer__row-2">
-          </div>
-        </div>
+          </article>
+          <!-- /END Project -->
 
-        
-        <div class="main-footer__lower">
-          &copy; Copyright 2022 Jack Minehan
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Svalinn</h3>
+              <p class="project-wrapper__text-info">
+                Svalinn is an app designed to promote environmentally friendly lifestyles 
+                and provide educational resources to individuals to work towards the world's 
+                common goal of ending climate change.
+              </p>
+              <!--
+              <div class="project-wrapper__text-btns">
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Learn More</a
+                >
+              </div>
+            -->
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/SvalinnBanner.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
         </div>
       </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">If you have any questions or comments please reach out! You can reach me at contactquillapp@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
     </footer>
+    <!-- END Footer Section -->
 
-    <script src="./index.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
   </body>
 </html>

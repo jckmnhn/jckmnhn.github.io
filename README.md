@@ -1,813 +1,320 @@
-# Dopefolio 🔥
+<h1 align="center"> ⚡️ DevFolio ⚡️</h1>
 
-## A Blazing Fast Multipage Portfolio Template for Developers 🚀
+[![Github](https://img.shields.io/github/license/anilseervi/DevFolio?color=%2312c2e9&logo=github&style=for-the-badge)](https://github.com/AnilSeervi/DevFolio/blob/master/README.md) ![Github Stars](https://img.shields.io/github/stars/anilseervi/DevFolio?color=%23c471ed&style=for-the-badge) ![Github forks](https://img.shields.io/github/forks/anilseervi/DevFolio?color=%23f64f59&style=for-the-badge) ![GitHub deployments](https://img.shields.io/github/deployments/anilseervi/DevFolio/github-pages?label=Deploy&logo=github&style=for-the-badge)
 
-## [Demo Link](https://dopefolio.netlify.app) 🔗
+## A Modern Portfolio Template for Developers!
 
-<div align="center">
-  <img src="https://i.postimg.cc/CxZXqhWM/ezgif-com-video-to-gif-1.gif" alt="Dopefolio Demo" width="100%" />
-  <br>
-</div>
-
-<br/>
-<br/>
-
----
-
-<br/>
-
-## ( Update ): Project Achievement 🏆 
-
-**Dopefolio** has been listed as the **Hottest Frontend Tool of 2021** According to **CSS Tricks** 🥳. Thanks to all of you for supporting this project 🙌
-
-**[Link to the CSS tricks article on Dopefolio](https://css-tricks.com/hottest-front-end-tools-in-2021/#aa-58-dopefolio)**   
-
-<br/>
-
-----
-
-<br/>
-
-## Support
-
-I do need **support** from amazing people like you as I started posting on **[My Youtube channel](https://www.youtube.com/channel/UCIb8_J9lqtiWGMIOdQ5DVsg)** and want each one of you to checkout my latest Youtube Video which is regarding **Dopefolio** & subscribe to **[My Youtube channel](https://www.youtube.com/channel/UCIb8_J9lqtiWGMIOdQ5DVsg)**. Here's the video ⬇️
-
-<a href="https://www.youtube.com/watch?v=chUMwOSTezk">
-<div align="center">
-  <img src="https://i.postimg.cc/2yvpm3Qh/Open-source-portfolio-template-for-developers-dopefolio-thumbnail.png" alt="Dopefolio Demo" width="100%" />
-  <br>
-</div>
-</a>
-
-**Subscribing** to **[My Youtube channel](https://www.youtube.com/channel/UCIb8_J9lqtiWGMIOdQ5DVsg)** is the best way to support **Dopefolio** and the developer of **Dopefolio** and it will motivate me to bring more and more awesome content and projects for amazing people like you ❤️
-
-**Subscribing** to **[My Youtube channel](https://www.youtube.com/channel/UCIb8_J9lqtiWGMIOdQ5DVsg)** isn't going to change the world but it will change the world for me, so please do it 😇 and it will not cost you anything 😉
-
-<br/>
-
----
-
-<br/>
+<h2 align="center">
+  <img src="assets/devfolio.gif" alt="Devfolio" />
+</h2>
 
 ## Features
 
-- ### **Easy to Setup 💯** 
-- ### **Free to Use ( OpenSource ) 🥳** 
-- ### **No Additional Frameworks 🤘** 
-- ### **No Additional Libraries 🙌** 
-- ### **Multi Page 💎** 
-- ### **Fully Responsive 🚀** 
-- ### **Super Fast and Optimized for SEO ⚡** 
-- ### **Great Audits Score 🎖️** 
+⚡️ Modern UI Design + Reveal Animations + Hover Effects\
+⚡️ Well organized documentation\
+⚡️ One Page Layout\
+⚡️ Custom SCSS\
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
+⚡ Fast and SEO Optimized
 
-<img src="https://i.ibb.co/1dD8Mky/Screenshot-from-2021-08-28-14-38-30.png" alt="Dopefolio Audits" width="100%" />
+To view a demo example, **[Click Here](https://devfolio.js.org)**\
+To view a live example, **[Click Here](https://anilseervi.github.io/Portfolio/)**\
+To view live example repo, **[Click Here](https://github.com/AnilSeervi/Portfolio/)**
 
-<br/>
-<br/>
+## Getting Started 🚀
 
-## Test the template with different colors on the playground link 🚀
+Here's a **Complete Guide** to walk you through the process of setting your own Portfolio Website with this minimal template on your local machine as well as hosting it on GitHub.
 
-## [Playground Link](https://dopefolio-playground.netlify.app) 🔗
+### Prerequisites 📋
 
-<div align="center">
-  <img src="https://i.postimg.cc/xjsqN9GG/ezgif-com-gif-maker-2.gif" alt="Dopefolio Playground" width="100%" />
-  <br>
-</div>
+You'll need [VSCode](https://code.visualstudio.com/) and [Git](https://git-scm.com/) installed on your computer.
 
-<br/>
-
-----
-
-<br/>
-
-## Technologies used 🛠️
-
-- **HTML** 🚀
-- **CSS** 🚀
-- **JavaScript** 🚀
-- **SASS** 🚀
+You'll also need these two extensions [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) installed in your VSCode. You will be automatically promted to install these extensions once you open this project in VSCode.
 
 ---
 
-<br/>
-
 ## How To Use 🔧
 
-From your command line, first clone Dopefolio:
+In VSCode, Open the terminal(<kbd>Ctrl</kbd>+<kbd>\\</kbd> ) and clone the DevFolio Repo.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rammcodes/dopefolio
+$ git clone https://github.com/AnilSeervi/DevFolio.git
 
 # Go into the repository
-$ cd dopefolio
+$ cd DevFolio
 
 # Remove current origin repository
 $ git remote remove origin
 ```
 
-<br/>
+And delete the [`.github`](./.github) folder as you don't need it.
 
-Then you can install the dependencies
+Now Simply click on **Watch Sass** in the bottom status bar to watch all your `.scss` file chages and compile them to vanilla `.css`.
+And also open `index.html`, right click inside the file and select _Show Preview_ to start a preview at `http://127.0.0.1:3000/`.
 
-Using NPM:
+<h3 align="center">
+OR
+</h3>
 
-```bash
-# Install dependencies
-$ npm install
-
-# Listen to changes in CSS Preprocessor files ( SASS files )
-$ npm run compile:scss
-```
-
-Once you run `npm run compile:scss`, then open the `index.html` inside your favorite browser or using the live server extension.
-
-<br>
+Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to Show Command Palette, Search for **Live Sass: Watch Sass** and turn it on. Also search for **Live Preview: Start Server** and turn it on. Doing this will watch all your Sass files for changes and will spin up a live server for you at `http://127.0.0.1:3000/`.
 
 ---
 
-<br>
+## Template Instructions
 
-## Template Instructions:
+### Step 1 - STRUCTURE
 
-## Step 1 - STYLES
+Open [`index.html`](./index.html) and fill your information, there are 6 sections:
 
-Make sure you have started the SASS to CSS compilation by running
+### Head Section
 
-```bash
-$ npm run compile:scss
-```
-
-Change the color theme of the website.
-
-Go to `sass/abstracts/_variables.scss` and change the value of this sass variable called `$themeClrPrimary` to your preferred HEX color.
-
-```scss
-// Default value
-$themeClrPrimary: #0062b9;
-```
-
-**NOTE**: I highly recommend to checkout the [Dopefolio Playground Link](https://dopefolio-playground.netlify.app) to test the template with different colors and see which color do you like the most.
-
-<br/>
-
----
-
-<br/>
-
-## Step 2 - Homepage
-
-Go to `/index.html` and fill your information, there are 6 sections:
-
-### Header of Homepage
-
-- On `.header__logo-img`, Add your own Image, Better if the background of the image is transparent so the background can match the theme color. To remove the background of your image, you can visit remove.bg where you can upload your image and it will remove the background of it.
-- On `.header__logo-sub`, Add your own Name.
+- Add a title to your Portfolio website within the `<title>` tag.
+- Add some keywords and description to your Portfolio website as directed in the [`index.html`](./index.html) file.
 
 ```html
-<!-- **** Header of Homepage **** -->
-<header class="header">
-  <div class="header__content">
-    <div class="header__logo-container">
-      <div class="header__logo-img-cont">
-        <img
-          src="./assets/png/john-doe.png"
-          alt="Ram Maheshwari Logo Image"
-          class="header__logo-img"
-        />
-      </div>
-      <span class="header__logo-sub">John Doe</span>
-    </div>
-    <div class="header__main">
-      <ul class="header__links">
-        <li class="header__link-wrapper">
-          <a href="./" class="header__link"> Home </a>
-        </li>
-        <li class="header__link-wrapper">
-          <a href="./#about" class="header__link">About </a>
-        </li>
-        <li class="header__link-wrapper">
-          <a href="./#projects" class="header__link"> Projects </a>
-        </li>
-        <li class="header__link-wrapper">
-          <a href="./#contact" class="header__link"> Contact </a>
-        </li>
-      </ul>
-      <div class="header__main-ham-menu-cont">
-        <img
-          src="./assets/svg/ham-menu.svg"
-          alt="hamburger menu"
-          class="header__main-ham-menu"
-        />
-      </div>
-    </div>
-  </div>
-  <div class="header__sm-menu">
-    <div class="header__sm-menu-content">
-      <ul class="header__sm-menu-links">
-        <li class="header__sm-menu-link">
-          <a href="./"> Home </a>
-        </li>
-
-        <li class="header__sm-menu-link">
-          <a href="./#about"> About </a>
-        </li>
-
-        <li class="header__sm-menu-link">
-          <a href="./#projects"> Projects </a>
-        </li>
-
-        <li class="header__sm-menu-link">
-          <a href="./#contact"> Contact </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</header>
-<!-- END Header -->
+<!-- Title: add your Portfolio websites's title here -->
+<title>[Your name here] | Developer</title>
+<!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+<meta name="keywords" content="[username], [name], skill" />
+<!-- Improve your SEO by adding a small descrption of you -->
+<meta name="description" content="[Your name here] | Developer" />
 ```
 
-### Hero Section of Homepage
+- Remove google analytics tag before pushing it to GitHub.
 
-- On `.heading-primary`, put your custom title.
-- On `.text-primary`, put a short description about yourself.
-- On `.home-hero__social-icon-link`, fill the href attribute with a link related to your social media account.
+### Hero Section
+
+- On `.hero-title`, put your custom title.
+- On `.hero-cta`, put your custom button cta.
 
 ```html
-<!-- **** Hero Section of Homepage **** -->
-<section class="home-hero">
-  <div class="home-hero__content">
-    <h1 class="heading-primary">Hey, My name is John Doe</h1>
-    <div class="home-hero__info">
-      <p class="text-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente solutions for complex
-        problems
-      </p>
-    </div>
-    <div class="home-hero__cta">
-      <a href="./#projects" class="btn btn--bg">Projects</a>
-    </div>
-  </div>
-  <div class="home-hero__socials">
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/linkedin-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/github-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/twitter-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-    <div class="home-hero__social">
-      <a href="#" class="home-hero__social-icon-link">
-        <img
-          src="./assets/png/yt-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-    <div class="home-hero__social">
-      <a
-        href="#"
-        class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-      >
-        <img
-          src="./assets/png/insta-ico.png"
-          alt="icon"
-          class="home-hero__social-icon"
-        />
-      </a>
-    </div>
-  </div>
-  <div class="home-hero__mouse-scroll-cont">
-    <div class="mouse"></div>
-  </div>
-</section>
+<!-- Hero Section -->
+<div id="hero">
+  <section class="container">
+    <h1 class="hero-title">
+      Hi, my name is <span class="text-color-main name">Your Name</span>
+      <br />
+      I'm the Unknown Developer.
+    </h1>
+    <p class="hero-cta">
+      <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+    </p>
+  </section>
+  <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+    <div class="scroll-down"></div>
+  </a>
+</div>
 <!-- /END Hero Section -->
 ```
 
 ### About Section
 
-- On `.heading-sec__sub`, put a short description about the section.
-- On `.about__content-details-para`, put your details here and use `<strong></strong>` tag to highlight specific keywords.
-- On `.skills__skill`, mention your skill one by one.
+- On `<img>` tag, fill the `src` attribute with your profile picture, your picture must be located inside [`assets/`](./assets) folder.
+  - Recommended size for your profile image is (_450 x 450px_).
+- On `<p>` tag with class-name `.about-wrapper__info-text`, include information about you, I recommend to use 2 paragraphs in order to work well and a maximum of 3 paragraphs.
+- On last `<a>` tag, include your resume url on `href` attribute.
 
 ```html
-<!-- **** About Section of Homepage **** -->
-<section id="about" class="about sec-pad">
-  <div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-med">
-      <span class="heading-sec__main">About Me</span>
-      <span class="heading-sec__sub">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
-      </span>
-    </h2>
-    <div class="about__content">
-      <div class="about__content-main">
-        <h3 class="about__content-title">Get to know me!</h3>
-        <div class="about__content-details">
-          <p class="about__content-details-para">
-            Hey! It's
-            <strong>John Doe</strong>
-            and I'm a <strong> Frontend Web Developer </strong> located in Los
-            Angeles. I've done
-            <strong> remote </strong>
-            projects for agencies, consulted for startups, and collaborated with
-            talented people to create
-            <strong>digital products </strong>
-            for both business and consumer use.
-          </p>
-          <p class="about__content-details-para">
-            I'm a bit of a digital product junky. Over the years, I've used
-            hundreds of web and mobile apps in different industries and
-            verticals. Feel free to
-            <strong>contact</strong> me here.
-          </p>
-        </div>
-        <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-          >Contact</a
-        >
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="row about-wrapper">
+      <div class="about-wrapper__image">
+        <img class="img-fluid" src="./assets/profile.png" alt="Profile Image" />
       </div>
-      <div class="about__content-skills">
-        <h3 class="about__content-title">My Skills</h3>
-        <div class="skills">
-          <div class="skills__skill">HTML</div>
-          <div class="skills__skill">CSS</div>
-          <div class="skills__skill">JavaScript</div>
-          <div class="skills__skill">React</div>
-          <div class="skills__skill">SASS</div>
-          <div class="skills__skill">GIT</div>
-          <div class="skills__skill">Shopify</div>
-          <div class="skills__skill">Wordpress</div>
-          <div class="skills__skill">Google ADS</div>
-          <div class="skills__skill">Facebook Ads</div>
-          <div class="skills__skill">Android</div>
-          <div class="skills__skill">IOS</div>
-        </div>
+      <div class="about-wrapper__info">
+        <p class="about-wrapper__info-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="about-wrapper__info-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <span class="about-wrapper__cta">
+          <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+        </span>
       </div>
     </div>
   </div>
 </section>
-<!-- END About Section -->
+<!-- /END About Section -->
 ```
 
-### Projects
+### Projects Section
 
-- On `.heading-sec__sub`, put a short description about the section.
-- `.projects__row` is the row for each project in your portfolio.
-- One `.projects__row` for each project in your portfolio ( so for example, if you have 3 projects then you need 3 `.projects__row` one by one).
+- Each project lives inside `row` class.
+- On `<h3>` tag with class-name `.project-wrapper__text-title`, include your project title.
+- On `<p>` tag with `loremp ipsum...` text, include your project information.
+- On first `<a>` tag, put your project url on `href` attribute.
+- On second `<a>` tag, put your project repository url on `href` attribute.
 
-- Inside each `projects__row`, there are 4 main elements.
+---
 
-  - Project Image is located at `.projects__row-img` where you can add the URL for your project mockup/image. You can use websites like [Media Modifier](https://mediamodifier.com/) and [SmartMockups](https://smartmockups.com) to generate mockups for free. Just make sure to crop the extra white space around your mockup so the mockups can look bigger and the size of the mockup file will be less.
-
-  - `.projects__row-content-title` is where you need to add your Project title.
-  - `.projects__row-content-desc` is where you need to add a short 2-3 lines description of your project. As there's going to be a separate page for each project so there you can add all the details for each project on the specific project page.
-  - The Anchor tag ( **Case Study** button) on press will take you to the details page for each project ( For example: If you click the **Case Study** button of Project 1 then it will take you to the `project-1.html` file where you will have all the details about that particular project).
-
-Currently, I have already added a separate for each project ( considering there are 3 projects ) the file names are `project-1.html`, `project-2.html`, and `project-3.html`. They all contain the same code only the project title, description and image will change. If you like to add more projects then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
+- Inside `<div>` tag with class-name `.project-wrapper__image`, put your project image url on the `src` of the `<img>` and put again your project url on `href` attribute of `<a>` tag.
+- Recommended size for project image (_1366 x 767px_), your project image must live in [`assets/`](./assets) folder. You can remove the default images and replace them with yours.
 
 ```html
-<!-- **** Projects Section of Homepage **** -->
-<section id="projects" class="projects sec-pad">
-  <div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-bg">
-      <span class="heading-sec__main">Projects</span>
-      <span class="heading-sec__sub">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
-      </span>
-    </h2>
+<!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
 
-    <div class="projects__content">
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
-          <img
-            src="./assets/jpeg/project-mockup-example.jpeg"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
-          />
-        </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 1</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
-          </p>
-          <a
-            href="./project-1.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
-          >
-        </div>
-      </div>
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
-          <img
-            src="./assets/jpeg/project-mockup-example.jpeg"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
-          />
-        </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 2</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
-          </p>
-          <a
-            href="./project-2.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
-          >
-        </div>
-      </div>
-      <div class="projects__row">
-        <div class="projects__row-img-cont">
-          <img
-            src="./assets/jpeg/project-mockup-example.jpeg"
-            alt="Software Screenshot"
-            class="projects__row-img"
-            loading="lazy"
-          />
-        </div>
-        <div class="projects__row-content">
-          <h3 class="projects__row-content-title">Project 3</h3>
-          <p class="projects__row-content-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora, explicabo quae quod deserunt eius sapiente praesentium.
-          </p>
-          <a
-            href="./project-3.html"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Case Study</a
-          >
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- END Projects Section -->
+        <!-- Each .row is a project -->
+          <div class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <p class="project-wrapper__text-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          ...
+          </section>
+<!-- /END Project -->
 ```
 
 ### Contact Section
 
-- On `.heading-sec__sub`, put a short description about the section.
-- `.contact__form-field` is the field inside form. Currently, there are 3 fields but you can add more fields as per your need but just make sure to change the name of **label** and **input/textarea** inside it.
-
-If you like to know how to submit forms so you can receive the form details in your email then highly recommend using **formspree.io** as it's easier to set up and free to use. If you are using **Netlify** to host the site then Netlify has an inbuilt form receiver which you can use instead of **formspree**.
+- On `<p>` tag with class-name `.contact-wrapper__text`, include some custom call-to-action message.
+- On `<a>` tag, put your email address on `href="mailto:` attribute.
 
 ```html
-<!-- **** Contact Section of Homepage **** -->
-<section id="contact" class="contact sec-pad dynamicBg">
-  <div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-med">
-      <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-      <span class="heading-sec__sub heading-sec__sub--lt">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-        tempora explicabo quae quod deserunt eius sapiente
-      </span>
-    </h2>
-    <div class="contact__form-container">
-      <form action="#" class="contact__form">
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="name">Name</label>
-          <input
-            required
-            placeholder="Enter Your Name"
-            type="text"
-            class="contact__form-input"
-            name="name"
-            id="name"
-          />
-        </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="email">Email</label>
-          <input
-            required
-            placeholder="Enter Your Email"
-            type="text"
-            class="contact__form-input"
-            name="email"
-            id="email"
-          />
-        </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="message">Message</label>
-          <textarea
-            required
-            cols="30"
-            rows="10"
-            class="contact__form-input"
-            placeholder="Enter Your Message"
-            name="message"
-            id="message"
-          ></textarea>
-        </div>
-        <button type="submit" class="btn btn--theme contact__btn">
-          Submit
-        </button>
-      </form>
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-wrapper">
+      <p class="contact-wrapper__text">[Put your call to action here]</p>
+      <a href="mailto:" class="cta-btn cta-btn--resume">Call to Action</a>
     </div>
   </div>
 </section>
 <!-- END Contact Section -->
 ```
 
-
-
 ### Footer Section
 
-- Inside h4 tag with the class `heading heading-sm text-lt` add your name.
-- On `.main-footer__short-desc` put a short description about yourself.
-- On Anchor tag inside `.main-footer__social-cont`, fill the href attribute with a link related to your social media account.
+- Put your social media link on each `<a>` links.
+- If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/icons) to put the corresponding additional social icon classNames.
+- You can delete or add as many `<a>` links your want.
 
 ```html
-<!-- **** Footer Section **** -->
-<footer class="main-footer">
-  <div class="main-container">
-    <div class="main-footer__upper">
-      <div class="main-footer__row main-footer__row-1">
-        <h2 class="heading heading-sm main-footer__heading-sm">
-          <span>Social</span>
-        </h2>
-        <div class="main-footer__social-cont">
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/github-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/twitter-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon"
-              src="./assets/png/yt-ico.png"
-              alt="icon"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href="#">
-            <img
-              class="main-footer__icon main-footer__icon--mr-none"
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="main-footer__row main-footer__row-2">
-        <h4 class="heading heading-sm text-lt">John Doe</h4>
-        <p class="main-footer__short-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-          tempora explicabo quae quod deserunt
-        </p>
-      </div>
-    </div>
-
-    <div class="main-footer__lower">
-      &copy; Copyright 2021. Made by
-      <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-        >Ram Maheshwari</a
-      >
-    </div>
+<!-- Footer Section -->
+<footer class="footer">
+  ...
+  <div class="social-links">
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-codepen"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
   </div>
+  ...
 </footer>
 <!-- END Footer Section -->
 ```
 
-<br/>
+### Step 2 - STYLES
+
+Change the color theme of the website ( choose 2 colors to create a gradient ):
+
+Go to [`style/base/_variables.scss`](./style/base/_variables.scss) and only change the values on these properties `$main-color` and `$secondary-color` to your prefered HEX color.
+
+Save the `.scss` file so that the **Live Sass Compiler** extension compiles it to `.css`.
+
+```scss
+// Default values
+$primary-color: #36d1dc;
+$secondary-color: #5b86e5;
+```
+
+**NOTE**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#Scooter)
 
 ---
 
-<br/>
-
-## Step 3 - Project Page
-
-Each project will have its own Page. The project page will have important details about the project like the Project Title, Description, Technologies, Project Links, etc.
-
-### Project Hero Section
-
-- On `.heading-primary` add the Project Title.
-- On `.text-primary` add a short description about the Project.
-- On Anchor Tag that says **Live Link** with class `btn btn--bg`, add the Project Live Link as the value for the href attribute.
-
-<!-- **** Project Section **** -->
-
-```html
-<section class="project-cs-hero">
-  <div class="project-cs-hero__content">
-    <h1 class="heading-primary">Project 1</h1>
-    <div class="project-cs-hero__info">
-      <p class="text-primary">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in
-        numquam incidunt earum quaerat cum fuga, atque similique natus nobis
-        sit.
-      </p>
-    </div>
-    <div class="project-cs-hero__cta">
-      <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-    </div>
-  </div>
-</section>
-```
-
-<!-- **** END Project Hero Section **** -->
-
-### Project Details Section
-
-- On `.project-details__showcase-img`, change the value of **src** to the location/link of Project Mockup.
-- On `.project-details__desc-para` to add a detailed paragraph describing your project. Use multiple `.project-details__desc-para` elements for multiple paragraphs.
-- On `.skills` mention the skills that were used to build the project inside `.skills__skill` to mention each skill.
-- On Anchor Tag that says **Live Link** with class `btn btn--med btn--theme project-details__links-btn`, add the Project Live Link as the value for the href attribute.
-- On Anchor Tag that says **Code Link** with class `btn btn--med btn--theme-inv project-details__links-btn`, add the Project's Code Link ( Repository Link ) as the value for the href attribute.
-
-<!-- **** Project Details Section **** -->
-
-```html
-<section class="project-details">
-  <div class="main-container">
-    <div class="project-details__content">
-      <div class="project-details__showcase-img-cont">
-        <img
-          src="./assets/jpeg/project-mockup-example.jpeg"
-          alt="Project Image"
-          class="project-details__showcase-img"
-        />
-      </div>
-      <div class="project-details__content-main">
-        <div class="project-details__desc">
-          <h3 class="project-details__content-title">Project Overview</h3>
-          <p class="project-details__desc-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
-            tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
-            aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
-            laborum corrupti ullam rem. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Neque alias tenetur minus quaerat aliquid, aut
-            provident blanditiis, deleniti aspernatur ipsam eaque veniam
-            voluptatem corporis vitae mollitia laborum corrupti ullam rem?
-          </p>
-          <p class="project-details__desc-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias
-            tenetur minus quaerat aliquid, aut provident blanditiis, deleniti
-            aspernatur ipsam eaque veniam voluptatem corporis vitae mollitia
-            laborum corrupti ullam rem?
-          </p>
-        </div>
-        <div class="project-details__tools-used">
-          <h3 class="project-details__content-title">Tools Used</h3>
-          <div class="skills">
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <div class="skills__skill">React</div>
-            <div class="skills__skill">SASS</div>
-            <div class="skills__skill">GIT</div>
-            <div class="skills__skill">Shopify</div>
-            <div class="skills__skill">Wordpress</div>
-            <div class="skills__skill">Google ADS</div>
-            <div class="skills__skill">Facebook Ads</div>
-            <div class="skills__skill">Android</div>
-            <div class="skills__skill">IOS</div>
-          </div>
-        </div>
-        <div class="project-details__links">
-          <h3 class="project-details__content-title">See Live</h3>
-          <a
-            href="#"
-            class="btn btn--med btn--theme project-details__links-btn"
-            target="_blank"
-            >Live Link</a
-          >
-          <a
-            href="#"
-            class="btn btn--med btn--theme-inv project-details__links-btn"
-            target="_blank"
-            >Code Link</a
-          >
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-```
-
-<!-- **** END Project Details Section **** -->
-
-<br>
+- You can clear the README.md file and add you own readme to it.
+- Also you don't need to push the [`style`](./style) folder, so you can add [`style`](./style) to [`.gitignore`](./.gitignore) file to ignore it while pushing it to the repo.
+- Delete the file [`CNAME`](./CNAME) before you push it.
 
 ---
-
-<br>
-
 
 ## Deployment 📦
 
-Once you have done with your setup. You need to put your website online!
+- Head to your GitHub account and create a new repo. And set a new remote for our template repo.
 
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
+  Note: remote URL will be different.
 
-Whenever you wanna host a new site on Netlify. You will need to press the **Create New Site** button from the Netlify's dashboard once you login into Netlify.
+  ```bash
+  # set a new remote
+  $ git remote add origin https://github.com/user.repo.git
+  ```
 
-Once you press the **Create Site Button** then you will have to follow the 3 steps:
+- Now commit all your changes with a commit message and push the code to your newly created repo.
 
-1. You will have to select your Github account.
+  ```bash
+  # commit changes
+  $ git commit -m 'created my portfolio'
+  # push the changes
+  $ git push -u origin master
+  ```
 
-2. Then select the Repository which you wanna host, in this case its your Portfolio website ( Clone of Dopefolio )
+- Refresh your repo page and head to the settings tab. Now scroll down till you see GitHub Pages. In the Source section select the branch to be master and save it!
+- Voilà your Portfolio should be live at `https://username.github.io/repoName/`
 
-3. In the 3rd step, you will have to modify the **Site settings and deploy**, keep everything as it is but just make sure to modify the **Build command** and set its value to **npm run build** and then modify the **Publish directory** and set its value to **/** as shown in the  **image** below
+## Technologies used 🛠️
 
-<div align="center">
-  <img src="https://i.ibb.co/hDTTrPB/Set-Build-Command-to.png" alt="Dopefolio Build Command Example and Publish Directory Value" width="100%" />
-  <br>
-</div>
+- [Sass](https://sass-lang.com/documentation) - CSS extension language
+- [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript library
+- [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
 
-<br>
+## Authors
 
-Then hit the **Deploy site** button and your **Portfolio Site** is live 🥳
-
-<br>
-
----
-
-<br>
-
-## Give a Star ⭐
-
-If you like this project then give it a **Github** star by pressing the **Star** button ⭐
-
-<br>
-
----
-
-<br>
-
-## Author 👨‍💻
-
-- **Ram Maheshwari** - **[Linkedin](https://linkedin.com/in/rammcodes)**, **[Twitter](https://twitter.com/rammcodes)**, **[Github](https://github.com/rammcodes)**, **[Portfolio](https://rammaheshwari.com)**  
-
-<br>
-
-#### Note: 
-I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in India )**. So, if you have a good opportunity that matches my skills experience then you can contact me on my **[Linkedin](https://linkedin.com/in/rammcodes)** or my email id **rammcodes@gmail.com** 🙌
-
-
-<br>
-
----
-
-<br>
-
-## Special Thanks ❤️
-
-Special thanks to [Jacobo Martínez](https://github.com/cobidev) for inspiring me to create something useful for the Developer Community. **Jacobo** is the creator of [Simplefolio](https://github.com/cobidev/simplefolio) which is another great Portfolio website Template for Developers. Check it out and show him some love ❤️
-
-<br>
-
----
-
-<br>
+- **Anil Seervi** - [https://github.com/AnilSeervi](https://github.com/AnilSeervi)
 
 ## License 📄
 
-This project is licensed under the  **GPL-3.0** License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Acknowledgments 🎁
+
+I was motivated and inspired while learning [ZTM: Complete Web Developer](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) to create a simpler version of [simplefolio](https://github.com/cobidev/simplefolio) for those who didn't know node and packages.
+
+---
+
+<h2 align="center">Have Fun Creating Your Own Portfolio Website.</h2>
